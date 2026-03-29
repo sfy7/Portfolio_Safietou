@@ -224,3 +224,10 @@ form textarea {
     box-shadow:0 5px 15px rgba(0,194,255,0.4);
 }
 
+/* FOOTER */
+footer{
+    margin-top:60px;
+    text-align:center;
+    font-size:0.8rem;
+    color:var(--muted);
+}
