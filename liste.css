@@ -69,3 +69,16 @@ header h1{
     box-shadow:0 5px 15px rgba(0,194,255,0.4);
 }
 
+/* SECTION */
+section{
+    margin-bottom:30px;
+}
+
+section h2{
+    font-size:1.4rem;
+    margin-bottom:5px;
+}
+
+section p{
+    color:var(--muted);
+}
