@@ -104,3 +104,15 @@ section p{
     transform:translateY(-8px);
     box-shadow:0 15px 30px rgba(0,0,0,0.5);
 }
+
+/* IMAGE */
+.project-item img{
+    width:100%;
+    height:180px;
+    object-fit:cover;
+}
+
+/* CONTENT */
+.project-tittle{
+    padding:20px;
+}
