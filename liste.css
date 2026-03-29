@@ -135,3 +135,20 @@ section p{
     padding:15px 20px;
     border-top:1px solid var(--border);
 }
+
+/* DETAILS BUTTON */
+.btn-details{
+    background:transparent;
+    border:1px solid var(--primary);
+    color:var(--primary);
+    padding:6px 14px;
+    border-radius:20px;
+    text-decoration:none;
+    font-size:0.8rem;
+    transition:0.3s;
+}
+
+.btn-details:hover{
+    background:var(--primary);
+    color:#000;
+}
