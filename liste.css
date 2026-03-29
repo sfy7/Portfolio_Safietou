@@ -1,0 +1,18 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* VARIABLES */
+:root{
+    --bg:#0b0f19;
+    --card:rgba(255,255,255,0.05);
+    --primary:#00c2ff;
+    --accent:#7c3aed;
+    --danger:#ff4d4d;
+    --text:#f1f5f9;
+    --muted:#94a3b8;
+    --border:rgba(255,255,255,0.08);
+}
