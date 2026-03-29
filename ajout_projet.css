@@ -78,3 +78,32 @@ header .nav-action button:hover {
     box-shadow:0 5px 15px rgba(0,194,255,0.4);
 }
 
+/* SECTION TITRE + SOUS-TITRE */
+.containes {
+    width:90%;
+    max-width:1000px;
+    margin:30px auto;
+}
+
+.containes .back {
+    display:inline-block;
+    text-decoration:none;
+    color:var(--primary);
+    font-size:0.95rem;
+    margin-bottom:15px;
+}
+
+.containes .back:hover {
+    text-decoration:underline;
+}
+
+.containes h1 {
+    font-size:2rem;
+    margin:15px 0;
+}
+
+.containes .subtitle {
+    font-size:1rem;
+    color:var(--muted);
+    line-height:1.6;
+}
