@@ -47,3 +47,25 @@ header h1{
     -webkit-background-clip:text;
     -webkit-text-fill-color:transparent;
 }
+
+/* BUTTON GLOBAL */
+.btn{
+    padding:10px 18px;
+    border-radius:30px;
+    text-decoration:none;
+    font-size:0.9rem;
+    transition:0.3s ease;
+}
+
+/* PRIMARY BUTTON */
+.btn-primary{
+    background:linear-gradient(90deg,var(--primary),var(--accent));
+    color:white;
+    border:none;
+}
+
+.btn-primary:hover{
+    transform:translateY(-2px);
+    box-shadow:0 5px 15px rgba(0,194,255,0.4);
+}
+
