@@ -20,13 +20,96 @@
         <!--Menu-->
         <div class="absolute left-1/2 transform -translate-x-1/2 flex items-center gap-4" >
           <a href="index.html" class="px-8 py-4 bg-gray-800 rounded-full font-display text-lg text-white font-medium hover:bg-teal-700/22 hover:text-teal-400 transition-all duration-300">Accueil</a>
-          <a href="./pages/projets.html" class="px-8 py-4 bg-gray-800 rounded-full font-display text-lg text-white font-medium hover:bg-teal-700/22 hover:text-teal-400 transition-all duration-300">Mes Projets</a>
+          <a href="projets.html" class="px-8 py-4 bg-gray-800 rounded-full font-display text-lg text-white font-medium hover:bg-teal-700/22 hover:text-teal-400 transition-all duration-300">Mes Projets</a>
         </div>
         <div class="ml-auto">
-          <a href="./pages/contact.html" class="px-8 py-4 bg-teal-400 rounded-full font-display text-lg text-gray-900 font-medium transition-all duration-300 shadow-lg shadow-teal-400/75">Contact</a>
+          <a href="contact.html" class="px-8 py-4 bg-teal-400 rounded-full font-display text-lg text-gray-900 font-medium transition-all duration-300 shadow-lg shadow-teal-400/75">Contact</a>
         </div>
       </nav>
     </header>
+
+    <!-- Contenu Principal -->
+    <main class="px-10 py-16">
+
+        <!-- Titre -->
+        <div class="flex justify-center gap-1 mb-10">
+                <h2 class="text-5xl font-bold text-white text-center">Contactez-</h2>
+                <h2 class="text-5xl font-bold text-teal-400 text-center">moi</h2>
+            </div>
+            <!-- Formulaire de contact -->
+        <div class="max-w-2xl mx-auto p-8 bg-gray-800 rounded-xl shadow-lg space-y-6">
+            <form class="space-y-4">
+
+                <!-- Nom -->
+                <div>
+                    <label class="block mb-2 text-gray-300 text-lg font-medium" for="name">Prénom</label>
+                    <input type="text" id="name" placeholder="Votre prénom" 
+                        class="w-full p-3 rounded-lg bg-gray-900 border border-gray-700 focus:border-teal-400 focus:outline-none"
+                        required
+                    >
+                </div>
+
+                <!-- Prenom -->
+                <div>
+                    <label class="block mb-2 text-gray-300 text-lg font-medium" for="name">Nom</label>
+                    <input 
+                        type="text" 
+                        id="name" 
+                        placeholder="Votre nom" 
+                        class="w-full p-3 rounded-lg bg-gray-900 border border-gray-700 focus:border-teal-400 focus:outline-none"
+                        required
+                    >
+                </div>
+
+                <!-- Email -->
+                <div>
+                    <label class="block mb-2 text-gray-300 text-lg font-medium" for="email">Email</label>
+                    <input 
+                        type="email" 
+                        id="email" 
+                        placeholder="votre@email.com" 
+                        class="w-full p-3 rounded-lg bg-gray-900 border border-gray-700 focus:border-teal-400 focus:outline-none"
+                        required
+                    >
+                </div>
+
+                <!-- Sujet -->
+                <div>
+                    <label class="block mb-2 text-gray-300 text-lg font-medium" for="subject">Sujet</label>
+                    <input 
+                        type="text" 
+                        id="subject" 
+                        placeholder="Sujet de votre message" 
+                        class="w-full p-3 rounded-lg bg-gray-900 border border-gray-700 focus:border-teal-400 focus:outline-none"
+                    >
+                </div>
+
+                <!-- Message -->
+                <div>
+                    <label class="block mb-2 text-gray-300 text-lg font-medium" for="message">Message</label>
+                    <textarea 
+                        id="message" 
+                        placeholder="Écrivez votre message ici..." 
+                        rows="5"
+                        class="w-full p-3 rounded-lg bg-gray-900 border border-gray-700 focus:border-teal-400 focus:outline-none"
+                        required
+                    ></textarea>
+                </div>
+
+                <!-- Bouton envoyer -->
+                <div class="text-center">
+                    <button 
+                        type="submit" 
+                        class="px-6 py-3 bg-teal-400 text-gray-900 font-semibold rounded-lg hover:bg-teal-500 transition"
+                    >
+                        Envoyer
+                    </button>
+                </div>
+
+            </form>
+        </div>
+
+    </main>
     
 </body>
 </html>
