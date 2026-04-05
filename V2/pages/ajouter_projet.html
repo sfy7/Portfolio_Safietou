@@ -1,32 +1,162 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>FullStack Portfolio</title>
-    <link rel="stylesheet" href="../src/output.css"/>
-</head>
-<body class="bg-gradient-to-br from-slate-900 via-slate-900 to-teal-800 text-white font-sans">
-     <!--Entete du site-->
+    <link rel="stylesheet" href="../src/output.css" />
+  </head>
+  <body
+    class="bg-gradient-to-br from-slate-900 via-slate-900 to-teal-800 text-white font-sans"
+  >
+    <!--Entete du site-->
     <header>
-      <nav class="relative flex items-center px-10 py-6 bg-slate-900 ">
-
+      <nav class="relative flex items-center px-10 py-6 bg-slate-900">
         <!--Logo-->
         <a href="../index.html" class="flex items-center gap-1">
-            <img src="../images/Logo.png" alt="Logo de Safiétou Sy" class="h-25 w-auto">
-            <p class="text-2xl text-white font-semibold">FullStack Portfolio</p>
+          <img
+            src="../images/Logo.png"
+            alt="Logo de Safiétou Sy"
+            class="h-25 w-auto"
+          />
+          <p class="text-2xl text-white font-semibold">FullStack Portfolio</p>
         </a>
 
         <!--Menu-->
-        <div class="absolute left-1/2 transform -translate-x-1/2 flex items-center gap-4" >
-          <a href="../index.html" class="px-8 py-4 bg-gray-800 rounded-full font-display text-lg text-white font-medium hover:bg-teal-700/22 hover:text-teal-400 transition-all duration-300">Accueil</a>
-          <a href="projets.html" class="px-8 py-4 bg-gray-800 rounded-full font-display text-lg text-white font-medium hover:bg-teal-700/22 hover:text-teal-400 transition-all duration-300">Mes Projets</a>
+        <div
+          class="absolute left-1/2 transform -translate-x-1/2 flex items-center gap-4"
+        >
+          <a
+            href="../index.html"
+            class="px-8 py-4 bg-gray-800 rounded-full font-display text-lg text-white font-medium hover:bg-teal-700/22 hover:text-teal-400 transition-all duration-300"
+            >Accueil</a
+          >
+          <a
+            href="projets.html"
+            class="px-8 py-4 bg-gray-800 rounded-full font-display text-lg text-white font-medium hover:bg-teal-700/22 hover:text-teal-400 transition-all duration-300"
+            >Mes Projets</a
+          >
         </div>
         <div class="ml-auto">
-          <a href="contact.html" class="px-8 py-4 bg-gray-800 rounded-full font-display text-lg text-white font-medium hover:bg-teal-700/22 hover:text-teal-400 transition-all duration-300">Contact</a>
+          <a
+            href="contact.html"
+            class="px-8 py-4 bg-gray-800 rounded-full font-display text-lg text-white font-medium hover:bg-teal-700/22 hover:text-teal-400 transition-all duration-300"
+            >Contact</a
+          >
         </div>
       </nav>
     </header>
-    
-</body>
+
+    <!-- MAIN -->
+    <main class="px-10 py-16">
+      <!-- TITRE -->
+      <section class="text-center mb-12">
+        <div class="flex justify-center gap-2 mb-4">
+          <h2 class="text-5xl font-bold">Ajouter un</h2>
+          <h2 class="text-5xl font-bold text-teal-400">Projet</h2>
+        </div>
+
+        <p class="text-gray-300 max-w-2xl mx-auto text-xl">
+          Ajoutez un nouveau projet en renseignant les informations ci-dessous:
+        </p>
+      </section>
+
+      <!-- FORMULAIRE -->
+      <section class="max-w-3xl mx-auto">
+        <form class="bg-gray-800 p-8 rounded-xl shadow-lg space-y-6">
+          <!-- Titre projet -->
+          <div>
+            <label class="block mb-2 text-gray-300 text-lg font-medium">Libellé</label>
+            <input
+              type="text"
+              placeholder="Ex: Application E-commerce"
+              class="w-full p-3 rounded-lg bg-gray-900 border border-gray-700 focus:border-teal-400 focus:outline-none"
+            />
+          </div>
+
+          <!-- Description -->
+          <div>
+            <label class="block mb-2 text-gray-300 text-lg font-medium">Description</label>
+            <textarea
+              rows="5"
+              placeholder="Décrivez votre projet..."
+              class="w-full p-3 rounded-lg bg-gray-900 border border-gray-700 focus:border-teal-400 focus:outline-none"
+            ></textarea>
+          </div>
+
+          <!-- Image du projet -->
+          <div class="space-y-4">
+            <label class="block text-gray-300 text-lg font-medium">
+              Image du projet
+            </label>
+
+            <!-- Bouton choisir fichier -->
+            <div>
+              <input
+                type="file"
+                id="imageUpload"
+                accept="image/*"
+                class="hidden"
+              />
+
+              <label
+                for="imageUpload"
+                class="inline-block px-6 py-3 bg-teal-400 text-gray-900 font-semibold rounded-lg cursor-pointer hover:bg-teal-500 transition"
+              >
+                Choisir une image
+              </label>
+            </div>
+
+            <!-- Séparateur -->
+            <div class="flex items-center gap-4">
+              <div class="flex-1 h-px bg-gray-700"></div>
+              <span class="text-gray-400 text-sm">OU</span>
+              <div class="flex-1 h-px bg-gray-700"></div>
+            </div>
+
+             <label class="block text-gray-300 text-lg font-medium">
+              URL de l'image
+            </label>
+
+            <!-- URL image -->
+            <input
+              type="url"
+              placeholder="https://exemple.com/image.jpg"
+              class="w-full p-3 rounded-lg bg-gray-900 border border-gray-700 focus:border-teal-400 focus:outline-none"
+            />
+          </div>
+
+          <!-- Technologies -->
+          <div>
+            <label class="block mb-2 text-gray-300 text-lg font-medium"
+              >Technologies utilisées</label
+            >
+            <input
+              type="text"
+              placeholder="HTML, Tailwind, React..."
+              class="w-full p-3 rounded-lg bg-gray-900 border border-gray-700 focus:border-teal-400 focus:outline-none"
+            />
+          </div>
+
+          <!-- Boutons -->
+          <div class="flex justify-end gap-4 pt-4">
+            <a
+              href="projets.html"
+              class="px-6 py-3 bg-gray-700 rounded-lg hover:bg-gray-600 transition"
+            >
+              Annuler
+            </a>
+
+            <button
+              type="submit"
+              class="px-6 py-3 bg-teal-400 text-gray-900 rounded-lg font-medium hover:bg-teal-500 transition shadow-lg shadow-teal-400/50"
+            >
+              Ajouter le projet
+            </button>
+          </div>
+        </form>
+      </section>
+    </main>
+
+  </body>
 </html>
