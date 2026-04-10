@@ -18,8 +18,8 @@ Portfolio_Safietou/
 ├── index.html              # Page principale du portfolio
 ├── package.json            # Métadonnées et dépendances du projet
 ├── package-lock.json       # Verrouillage des versions des dépendances
-├── script.js               # Logique JavaScript (CRUD via fetch)
-└── README.md
+├── README.md
+└── script.js               # Logique JavaScript (CRUD via fetch)
 ```
 
 ---
