@@ -145,5 +145,4 @@ Ouvrez le fichier `index.html` dans votre navigateur :
 ## 🔗 Liens
 
 - 💼 [LinkedIn](https://www.linkedin.com/in/safi3)
-- 🐙 [GitHub](https://github.com/sfy7/Portfolio_Safietou/tree/main/V3)
 - 📧 [safietou0218@gmail.com](mailto:safietou0218@gmail.com)
