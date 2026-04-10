@@ -1,0 +1,37 @@
+{
+  "projets": [
+    {
+      "id": "1",
+      "libelle": "Application E-commerce",
+      "date": "Ajouté le 5 octobre 2023",
+      "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=500&q=80",
+      "description": "Développement d'une plateforme e-commerce complète avec gestion des produits, panier d'achat, paiements en ligne et tableau de bord administrateur. L'application supporte plusieurs devises et langues, intègre un système de recommandation basé sur l'IA et offre une expérience utilisateur fluide sur tous les appareils.",
+      "technologies": "React, Node.js, PostgreSQL, Stripe API, Docker, Redis"
+    },
+    {
+      "id": "2",
+      "libelle": "Application mobile de santé",
+      "date": "Ajouté le 15 septembre 2024",
+      "image": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?auto=format&fit=crop&w=500&q=80",
+      "description": "Développement d'une application mobile de santé permettant aux utilisateurs de suivre leur état de santé, de planifier leurs rendez-vous médicaux et d'accéder à leurs dossiers médicaux numériques.",
+      "technologies": "React, Node.js, PostgreSQL, Stripe API, Docker, Redis"
+    },
+    {
+      "id": "3",
+      "libelle": "Dashboard Analytics Temps Réel",
+      "date": "Ajouté le 10 novembre 2025",
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=500&q=80",
+      "description": "Développement d'un dashboard d'analytics en temps réel permettant de visualiser et d'analyser les données instantanément. L'application affiche des indicateurs clés sous forme de graphiques interactifs et de tableaux dynamiques.",
+      "technologies": "React, PHP, MySQL, API, Git/Github, Trello"
+    },
+    {
+      "id": "4",
+      "libelle": "Application gestion de pointage",
+      "date": "Ajouté le 18 janvier 2024",
+      "image": "https://fr.organilog.com/wp-content/uploads/2022/11/logiciel-de-pointage-qr-code-equipement.webp",
+      "description": "Développement d'une application de gestion de pointage pour les employés, permettant de suivre les heures d'entrée et de sortie à l'aide de QR codes.",
+      "technologies": "React, Node.js, MySQL, React Native Camera, AWS, API GPS ET GEOFENCING"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
