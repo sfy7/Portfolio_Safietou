@@ -61,7 +61,7 @@ Projets-fil-rouge/
 
 ```bash
 git https://github.com/sfy7/Projets-fil-rouge.git
-cd Portfolio_Safietou/V3
+cd Projets-fil-rouge/V3
 ```
 
 ---
