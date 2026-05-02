@@ -10,7 +10,7 @@ function App() {
     <div className="scroll-smooth">
       <Navbar />
 
-      <main className="bg-gradient-to-r from-indigo-800 via-purple-800 to-pink-800 min-h-screen pt-32">
+      <main className="bg-gradient-to-br from-gray-900 via-purple-900 to-gray-900 min-h-screen pt-32">
         {/* Section Accueil */}
         <section
           id="accueil"
@@ -30,16 +30,16 @@ function App() {
             des questions ou souhaitez collaborer sur un projet.
           </p>
           <div className="flex flex-wrap justify-center gap-4 mt-10">
-            <button className="px-6 py-3 bg-transparent text-white rounded-full font-medium border border-white/20 hover:bg-violet-700/20 transition duration-300">
+            <button className="px-6 py-3 bg-transparent text-white rounded-full font-medium border border-white/20 hover:bg-purple-500/30 transition duration-300">
               Formations
             </button>
-            <button className="px-6 py-3 bg-transparent text-white rounded-full font-medium border border-white/20 hover:bg-violet-700/20 transition duration-300">
+            <button className="px-6 py-3 bg-transparent text-white rounded-full font-medium border border-white/20 hover:bg-purple-500/30 transition duration-300">
               Compétences
             </button>
-            <button className="px-6 py-3 bg-transparent text-white rounded-full font-medium border border-white/20 hover:bg-violet-700/20 transition duration-300">
+            <button className="px-6 py-3 bg-transparent text-white rounded-full font-medium border border-white/20 hover:bg-purple-500/30 transition duration-300">
               Expériences
             </button>
-            <button className="px-6 py-3 bg-transparent text-white rounded-full font-medium border border-white/20 hover:bg-violet-700/20 transition duration-300">
+            <button className="px-6 py-3 bg-transparent text-white rounded-full font-medium border border-white/20 hover:bg-purple-500/30 transition duration-300">
               Télécharger CV
             </button>
           </div>
